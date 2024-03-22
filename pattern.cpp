@@ -1,0 +1,20 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main()
+{
+    int i,j,rows;
+    char alphabet='A';
+    cout << "Enter the number of rows" << endl;
+    cin>>rows;
+    for(i=1; i<=rows; i++)
+	{
+        for(j=1; j<=i; j++)
+		{
+        	cout<<alphabet++;
+        }
+        cout<<"\n";
+    }
+    getch();
+    return 0;
+}
